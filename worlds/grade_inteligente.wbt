@@ -1,0 +1,1267 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+  info [
+    "Grade Inteligente - MATA64 Inteligencia Artificial"
+    "Pioneer3dx navega de A (sup.esq.) ate B (inf.dir.) numa grade 10x10."
+    "Sinais coloridos penalizam. Se score <= -60 volta para A."
+    "Pontuacao: +100 chegar B | -1 segmento | -5 verde | -20 amarelo | -50 vermelho"
+  ]
+  title "Grade Inteligente - MATA64"
+}
+Viewpoint {
+  orientation 0.07231800624985925 -0.17526046601669268 -0.981862452191577 5.487458481494559
+  position -6.0381611263134785 1.9774646752253422 0.9122894649399507
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 11 11
+  floorAppearance PBRAppearance {
+    baseColor 0.12 0.12 0.12
+    roughness 1
+    metalness 0
+  }
+  wallHeight 0.4
+  wallAppearance PBRAppearance {
+    baseColor 0.3 0.3 0.3
+    roughness 1
+    metalness 0
+  }
+}
+Solid {
+  translation 0 4.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_0"
+}
+Solid {
+  translation 0 3.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_1"
+}
+Solid {
+  translation 0 2.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_2"
+}
+Solid {
+  translation 0 1.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_3"
+}
+Solid {
+  translation 0 0.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_4"
+}
+Solid {
+  translation 0 -0.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_5"
+}
+Solid {
+  translation 0 -1.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_6"
+}
+Solid {
+  translation 0 -2.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_7"
+}
+Solid {
+  translation 0 -3.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_8"
+}
+Solid {
+  translation 0 -4.5 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 9 0.07 0.001
+      }
+    }
+  ]
+  name "lh_9"
+}
+Solid {
+  translation -4.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_0"
+}
+Solid {
+  translation -3.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_1"
+}
+Solid {
+  translation -2.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_2"
+}
+Solid {
+  translation -1.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_3"
+}
+Solid {
+  translation -0.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_4"
+}
+Solid {
+  translation 0.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_5"
+}
+Solid {
+  translation 1.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_6"
+}
+Solid {
+  translation 2.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_7"
+}
+Solid {
+  translation 3.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_8"
+}
+Solid {
+  translation 4.5 0 0.001
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.07 9 0.001
+      }
+    }
+  ]
+  name "lv_9"
+}
+Solid {
+  translation -4.5 4.5 0.002
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.4 1
+        roughness 0.3
+        metalness 0.2
+      }
+      geometry Cylinder {
+        height 0.003
+        radius 0.35
+      }
+    }
+  ]
+  name "ponto_A"
+}
+DEF SV_8_6 Solid {
+  translation -4.5 4 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_8_6"
+}
+DEF SH_8_7 Solid {
+  translation -4.5 3 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_8_7"
+}
+DEF SH_2_2 Solid {
+  translation -4 -4.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_2_2"
+}
+DEF SV_9_6 Solid {
+  translation -3 -4.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_9_6"
+}
+DEF SH_8_5 Solid {
+  translation -0.5 -2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_8_5"
+}
+DEF SH_8_6 Solid {
+  translation 0.5 2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_8_6"
+}
+DEF SH_3_1 Solid {
+  translation -1 0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_3_1"
+}
+DEF SH_5_7 Solid {
+  translation 3 3.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_5_7"
+}
+DEF SV_8_8 Solid {
+  translation 2.5 -4 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_8_8"
+}
+DEF SV_6_3 Solid {
+  translation -2.5 2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_6_3"
+}
+DEF SV_7_7 Solid {
+  translation -3 -3.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_7_7"
+}
+DEF SV_3_7 Solid {
+  translation -2.5 -1 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_3_7"
+}
+DEF SH_6_0 Solid {
+  translation -2.5 0 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_6_0"
+}
+DEF SH_3_4 Solid {
+  translation -0.5 -3 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_3_4"
+}
+DEF SV_2_6 Solid {
+  translation 2 -3.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_2_6"
+}
+DEF SH_4_6 Solid {
+  translation -0.5 2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_4_6"
+}
+DEF SV_6_4 Solid {
+  translation 0.5 -1 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_6_4"
+}
+DEF SH_3_6 Solid {
+  translation -3.5 -4 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_3_6"
+}
+DEF SH_3_8 Solid {
+  translation -1 -0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_3_8"
+}
+DEF SH_4_3 Solid {
+  translation -1 -1.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_4_3"
+}
+DEF SH_8_8 Solid {
+  translation 2 4.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_8_8"
+}
+DEF SH_2_1 Solid {
+  translation 2.5 -2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_2_1"
+}
+DEF SH_4_5 Solid {
+  translation 4 -3.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_4_5"
+}
+DEF SV_1_1 Solid {
+  translation -4 -0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_1_1"
+}
+DEF SH_0_4 Solid {
+  translation -1 -3.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_0_4"
+}
+DEF SV_9_7 Solid {
+  translation 3.5 4 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_9_7"
+}
+DEF SV_9_5 Solid {
+  translation 1 4.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_9_5"
+}
+DEF SV_9_2 Solid {
+  translation -4 4.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_9_2"
+}
+DEF SV_2_4 Solid {
+  translation -2 -0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_2_4"
+}
+DEF SV_9_0 Solid {
+  translation 3.5 -3 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_9_0"
+}
+DEF SV_7_2 Solid {
+  translation -3 1.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_7_2"
+}
+DEF SH_4_8 Solid {
+  translation 4.5 -1 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_4_8"
+}
+DEF SV_6_1 Solid {
+  translation -0.5 -1 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_6_1"
+}
+DEF SH_2_6 Solid {
+  translation -0.5 3 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_2_6"
+}
+DEF SH_2_7 Solid {
+  translation 1 -0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_2_7"
+}
+DEF SH_5_0 Solid {
+  translation 4 0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_5_0"
+}
+DEF SH_7_4 Solid {
+  translation -3.5 0 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_7_4"
+}
+DEF SH_0_5 Solid {
+  translation -2 -2.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_0_5"
+}
+DEF SH_0_3 Solid {
+  translation 2.5 3 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_0_3"
+}
+DEF SH_7_0 Solid {
+  translation 4.5 4 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_7_0"
+}
+DEF SH_8_4 Solid {
+  translation 2.5 0 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_8_4"
+}
+DEF SV_8_5 Solid {
+  translation 3.5 -2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_8_5"
+}
+DEF SH_4_1 Solid {
+  translation 1 2.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_4_1"
+}
+DEF SH_6_1 Solid {
+  translation 2 -1.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_6_1"
+}
+DEF SV_4_0 Solid {
+  translation 2 -0.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_4_0"
+}
+DEF SH_5_3 Solid {
+  translation 0 3.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_5_3"
+}
+DEF SV_6_7 Solid {
+  translation 3 -2.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sv_6_7"
+}
+DEF SH_1_4 Solid {
+  translation -3.5 -3 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.9 0.1 0.1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_1_4"
+}
+DEF SH_5_6 Solid {
+  translation -4 1.5 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.95 0.85 0.05
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_5_6"
+}
+DEF SH_0_6 Solid {
+  translation -3.5 2 0.003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.85 0.2
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.004
+        radius 0.18
+      }
+    }
+  ]
+  name "sh_0_6"
+}
+Solid {
+  translation 4.5 -4.5 0.002
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.5 0
+        roughness 0.3
+        metalness 0.2
+      }
+      geometry Cylinder {
+        height 0.003
+        radius 0.35
+      }
+    }
+  ]
+  name "ponto_B"
+}
+DEF ROBO Pioneer3dx {
+  hidden position_0_0 7.384664369685315e-07
+  hidden position_0_1 1.730815005129744e-06
+  hidden position_0_2 1.7308805216088297e-06
+  hidden linearVelocity_0 8.889777759442687e-15 8.977860555031223e-15 -6.081316728050783e-16
+  hidden angularVelocity_0 -6.5525084906684475e-15 8.088652774602088e-16 -5.279760919498747e-16
+  hidden rotation_1 0.5773505534254776 -0.57735012707166 -0.5773501270716348 2.0943945736462877
+  hidden position_1_0 1.7190141964933812
+  hidden linearVelocity_1 -1.1062887462194021e-14 4.0021443756617e-15 1.098386958264547e-15
+  hidden angularVelocity_1 2.1548450958362446e-14 5.752550654837552e-14 3.194089115432792e-13
+  hidden rotation_2 1 0 0 1.7190141964933812
+  hidden linearVelocity_2 -1.5472945052568358e-14 -2.2571606567398785e-15 -3.586582203156741e-15
+  hidden angularVelocity_2 6.628994997869216e-14 -5.316467780309154e-14 3.3540867361902366e-13
+  hidden rotation_4 0.5773499360976934 -0.5773499360976342 -0.5773509353729733 2.094394000725296
+  hidden linearVelocity_4 6.615159627814318e-15 -7.93322409985189e-15 4.1016752763165316e-16
+  hidden angularVelocity_4 -5.073883302551892e-15 -3.357278149071527e-16 -5.092953459507626e-16
+  hidden rotation_9 0.5773499360771907 -0.5773499360771317 -0.5773509354139785 2.094394000663788
+  hidden linearVelocity_9 6.6732497044725275e-15 8.963326445774973e-15 -3.840343388185671e-17
+  hidden angularVelocity_9 -7.973897401304128e-15 1.0630583471767144e-15 -4.94013998594382e-16
+  translation -4.499999957294362 4.511454938569497 0.09481477876303665
+  rotation -0.017308384948705114 -0.017308289530334708 -0.9997003765749024 1.5710996685020273
+  name "pioneer"
+  controller "grade_controller"
+  extensionSlot [
+    GPS {
+    }
+    Compass {
+    }
+    Camera {
+      translation 0.1 0 0.1
+    }
+  ]
+}
+Robot {
+  children [
+    Display {
+      name "painel"
+      width 200
+      height 80
+    }
+  ]
+  name "Supervisor"
+  controller "grade_supervisor"
+  supervisor TRUE
+}
