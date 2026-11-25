@@ -1,0 +1,21 @@
+==================================================
+  RESULTADO DA AVALIACAO — MATA64 2026.2
+==================================================
+  Semente de randomizacao : 915759
+  Chegou ao ponto B       : SIM
+--------------------------------------------------
+  ITEM 1 — Chegada
+  Tentativas realizadas   : 3
+  Pontuacao final (ult.   
+  tentativa ao chegar B)  : +60.0 pts
+--------------------------------------------------
+  ITEM 2 — Eficiencia
+  Tempo total ate B       : 166.9 s  (02:46)
+  Num. reposicionamentos  : 3
+--------------------------------------------------
+  SINAIS PISADOS (todas as tentativas)
+  Verde    (-10 pts) :   2 =   20 pts de penalidade
+  Amarelo  (-20 pts) :   5 =  100 pts de penalidade
+  Vermelho (-50 pts) :   3 =  150 pts de penalidade
+  Total de sinais    :  10
+==================================================

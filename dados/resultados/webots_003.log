@@ -1,0 +1,89 @@
+INFO: grade_controller: Starting controller: python.exe -u grade_controller.py
+INFO: grade_supervisor: Starting controller: python.exe -u grade_supervisor.py
+=======================================================
+  Desafio IA - MATA64 | Q-learning + prior neural
+  modo=coleta | prior=não (otimista)
+=======================================================
+
+  Semente de randomizacao: 761628
+
+=======================================================
+  Grade Inteligente - Supervisor iniciado
+=======================================================
+  Sinais: 🟢16 🟡16 🔴18 (total 50) — bordas garantidas + restantes aleatorios
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=1
+  [1,0] -> Sul -> [1,1] | score=0 tentativa=1
+  [1,1] -> Leste -> [2,1] | score=0 tentativa=1
+  🔴 vermelho  -50 | Score: -50.0 | Vermelhos pisados: 1
+  pen=-50 | score=-50
+  [2,1] -> Leste -> [3,1] | score=-50 tentativa=1
+  🟢 verde     -10 | Score: -60.0 | Verdes pisados: 1
+  ↩  Volta para A | Score: -60.0 | Tentativa #1 | Tempo total: 10s
+  pen=-10 | score=-60
+  Voltou para A — tentativa 2
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=2
+  ✅ Estabilizado em A — tentativa 2 iniciando
+
+  [1,0] -> Leste -> [2,0] | score=0 tentativa=2
+  [2,0] -> Sul -> [2,1] | score=0 tentativa=2
+  🟢 verde     -10 | Score: -10.0 | Verdes pisados: 2
+  pen=-10 | score=-10
+  [2,1] -> Sul -> [2,2] | score=-10 tentativa=2
+  🟡 amarelo   -20 | Score: -30.0 | Amarelos pisados: 1
+  pen=-20 | score=-30
+  [2,2] -> Sul -> [2,3] | score=-30 tentativa=2
+  [2,3] -> Leste -> [3,3] | score=-30 tentativa=2
+  [3,3] -> Leste -> [4,3] | score=-30 tentativa=2
+  [4,3] -> Sul -> [4,4] | score=-30 tentativa=2
+  [4,4] -> Norte -> [4,3] | score=-30 tentativa=2
+  [4,3] -> Sul -> [4,4] | score=-30 tentativa=2
+  [4,4] -> Oeste -> [3,4] | score=-30 tentativa=2
+  [3,4] -> Sul -> [3,5] | score=-30 tentativa=2
+  [3,5] -> Sul -> [3,6] | score=-30 tentativa=2
+  [3,6] -> Sul -> [3,7] | score=-30 tentativa=2
+  🟢 verde     -10 | Score: -40.0 | Verdes pisados: 3
+  pen=-10 | score=-40
+  [3,7] -> Sul -> [3,8] | score=-40 tentativa=2
+  [3,8] -> Leste -> [4,8] | score=-40 tentativa=2
+  [4,8] -> Leste -> [5,8] | score=-40 tentativa=2
+  [5,8] -> Leste -> [6,8] | score=-40 tentativa=2
+  [6,8] -> Leste -> [7,8] | score=-40 tentativa=2
+  [7,8] -> Oeste -> [6,8] | score=-40 tentativa=2
+  [6,8] -> Sul -> [6,9] | score=-40 tentativa=2
+  [6,9] -> Leste -> [7,9] | score=-40 tentativa=2
+  [7,9] -> Leste -> [8,9] | score=-40 tentativa=2
+  [8,9] -> Leste -> [9,9] | score=-40 tentativa=2
+
+  🏁 Chegou em B! Ep 1 | Score: +60.0 | Tempo total: 72.1s | Tentativas: 1
+
+==================================================
+  RESULTADO DA AVALIACAO — MATA64 2026.2
+==================================================
+  Semente de randomizacao : 761628
+  Chegou ao ponto B       : SIM
+--------------------------------------------------
+  ITEM 1 — Chegada
+  Tentativas realizadas   : 1
+  Pontuacao final (ult.   
+  tentativa ao chegar B)  : +60.0 pts
+--------------------------------------------------
+  ITEM 2 — Eficiencia
+  Tempo total ate B       : 72.1 s  (01:12)
+  Num. reposicionamentos  : 1
+--------------------------------------------------
+  SINAIS PISADOS (todas as tentativas)
+  Verde    (-10 pts) :   3 =   30 pts de penalidade
+  Amarelo  (-20 pts) :   1 =   20 pts de penalidade
+  Vermelho (-50 pts) :   1 =   50 pts de penalidade
+  Total de sinais    :   5
+==================================================
+
+  Resultado salvo em: C:\Users\jhuze\Downloads\IA_20262\desafio-ia-mata64\controllers\grade_controller\resultado_avaliacao.txt
+INFO: 'grade_supervisor' controller exited successfully.
+
+=======================================================
+  CHEGOU EM B! Tentativa 2 | tempo 72.3 s | score 60
+=======================================================
+
+INFO: 'grade_controller' controller exited successfully.

@@ -1,0 +1,114 @@
+INFO: grade_controller: Starting controller: python.exe -u grade_controller.py
+INFO: grade_supervisor: Starting controller: python.exe -u grade_supervisor.py
+  Semente de randomizacao: 338937
+
+=======================================================
+  Grade Inteligente - Supervisor iniciado
+=======================================================
+  Sinais: 🟢16 🟡16 🔴18 (total 50) — bordas garantidas + restantes aleatorios
+=======================================================
+  Desafio IA - MATA64 | Q-learning + prior neural
+  modo=coleta | prior=não (otimista)
+=======================================================
+
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=1
+  🔴 vermelho  -50 | Score: -50.0 | Vermelhos pisados: 1
+  pen=-50 | score=-50
+  [0,1] -> Sul -> [0,2] | score=-50 tentativa=1
+  🟡 amarelo   -20 | Score: -70.0 | Amarelos pisados: 1
+  pen=-20 | score=-70
+  Voltou para A — tentativa 2
+
+  ↩  Volta para A | Score: -70.0 | Tentativa #1 | Tempo total: 3s
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=2
+  ✅ Estabilizado em A — tentativa 2 iniciando
+
+  [1,0] -> Leste -> [2,0] | score=0 tentativa=2
+  🔴 vermelho  -50 | Score: -50.0 | Vermelhos pisados: 2
+  pen=-50 | score=-50
+  [2,0] -> Sul -> [2,1] | score=-50 tentativa=2
+  [2,1] -> Leste -> [3,1] | score=-50 tentativa=2
+  [3,1] -> Sul -> [3,2] | score=-50 tentativa=2
+  🟢 verde     -10 | Score: -60.0 | Verdes pisados: 1
+  ↩  Volta para A | Score: -60.0 | Tentativa #2 | Tempo total: 15s
+  pen=-10 | score=-60
+  Voltou para A — tentativa 3
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=3
+  ✅ Estabilizado em A — tentativa 3 iniciando
+
+  [1,0] -> Sul -> [1,1] | score=0 tentativa=3
+  [1,1] -> Sul -> [1,2] | score=0 tentativa=3
+  [1,2] -> Leste -> [2,2] | score=0 tentativa=3
+  [2,2] -> Sul -> [2,3] | score=0 tentativa=3
+  [2,3] -> Leste -> [3,3] | score=0 tentativa=3
+  [3,3] -> Sul -> [3,4] | score=0 tentativa=3
+  [3,4] -> Sul -> [3,5] | score=0 tentativa=3
+  [3,5] -> Leste -> [4,5] | score=0 tentativa=3
+  🔴 vermelho  -50 | Score: -50.0 | Vermelhos pisados: 3
+  pen=-50 | score=-50
+  [4,5] -> Sul -> [4,6] | score=-50 tentativa=3
+  🟢 verde     -10 | Score: -60.0 | Verdes pisados: 2
+  pen=-10 | score=-60
+  Voltou para A — tentativa 4
+
+  ↩  Volta para A | Score: -60.0 | Tentativa #3 | Tempo total: 42s
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=4
+  ✅ Estabilizado em A — tentativa 4 iniciando
+
+  [1,0] -> Sul -> [1,1] | score=0 tentativa=4
+  [1,1] -> Leste -> [2,1] | score=0 tentativa=4
+  [2,1] -> Leste -> [3,1] | score=0 tentativa=4
+  [3,1] -> Leste -> [4,1] | score=0 tentativa=4
+  [4,1] -> Sul -> [4,2] | score=0 tentativa=4
+  [4,2] -> Sul -> [4,3] | score=0 tentativa=4
+  [4,3] -> Oeste -> [3,3] | score=0 tentativa=4
+  [3,3] -> Sul -> [3,4] | score=0 tentativa=4
+  [3,4] -> Leste -> [4,4] | score=0 tentativa=4
+  [4,4] -> Oeste -> [3,4] | score=0 tentativa=4
+  [3,4] -> Leste -> [4,4] | score=0 tentativa=4
+  [4,4] -> Leste -> [5,4] | score=0 tentativa=4
+  [5,4] -> Sul -> [5,5] | score=0 tentativa=4
+  [5,5] -> Leste -> [6,5] | score=0 tentativa=4
+  [6,5] -> Sul -> [6,6] | score=0 tentativa=4
+  🟢 verde     -10 | Score: -10.0 | Verdes pisados: 3
+  pen=-10 | score=-10
+  [6,6] -> Leste -> [7,6] | score=-10 tentativa=4
+  [7,6] -> Sul -> [7,7] | score=-10 tentativa=4
+  [7,7] -> Sul -> [7,8] | score=-10 tentativa=4
+  [7,8] -> Leste -> [8,8] | score=-10 tentativa=4
+  [8,8] -> Leste -> [9,8] | score=-10 tentativa=4
+  [9,8] -> Sul -> [9,9] | score=-10 tentativa=4
+
+  🏁 Chegou em B! Ep 1 | Score: +90.0 | Tempo total: 102.5s | Tentativas: 3
+
+==================================================
+  RESULTADO DA AVALIACAO — MATA64 2026.2
+==================================================
+  Semente de randomizacao : 338937
+  Chegou ao ponto B       : SIM
+--------------------------------------------------
+  ITEM 1 — Chegada
+  Tentativas realizadas   : 3
+  Pontuacao final (ult.   
+  tentativa ao chegar B)  : +90.0 pts
+--------------------------------------------------
+  ITEM 2 — Eficiencia
+  Tempo total ate B       : 102.5 s  (01:42)
+  Num. reposicionamentos  : 3
+--------------------------------------------------
+  SINAIS PISADOS (todas as tentativas)
+  Verde    (-10 pts) :   3 =   30 pts de penalidade
+  Amarelo  (-20 pts) :   1 =   20 pts de penalidade
+  Vermelho (-50 pts) :   3 =  150 pts de penalidade
+  Total de sinais    :   7
+==================================================
+
+  Resultado salvo em: C:\Users\jhuze\Downloads\IA_20262\desafio-ia-mata64\controllers\grade_controller\resultado_avaliacao.txt
+INFO: 'grade_supervisor' controller exited successfully.
+
+=======================================================
+  CHEGOU EM B! Tentativa 4 | tempo 102.8 s | score 90
+=======================================================
+
+INFO: 'grade_controller' controller exited successfully.

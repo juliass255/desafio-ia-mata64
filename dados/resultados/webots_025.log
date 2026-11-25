@@ -1,0 +1,94 @@
+INFO: grade_controller: Starting controller: python.exe -u grade_controller.py
+INFO: grade_supervisor: Starting controller: python.exe -u grade_supervisor.py
+=======================================================
+  Desafio IA - MATA64 | Q-learning + prior neural
+  modo=coleta | prior=não (otimista)
+=======================================================
+
+  Semente de randomizacao: 602615
+
+=======================================================
+  Grade Inteligente - Supervisor iniciado
+=======================================================
+  Sinais: 🟢16 🟡16 🔴18 (total 50) — bordas garantidas + restantes aleatorios
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=1
+  [1,0] -> Leste -> [2,0] | score=0 tentativa=1
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 1
+  pen=-20 | score=-20
+  [2,0] -> Leste -> [3,0] | score=-20 tentativa=1
+  🟢 verde     -10 | Score: -30.0 | Verdes pisados: 1
+  pen=-10 | score=-30
+  [3,0] -> Leste -> [4,0] | score=-30 tentativa=1
+  [4,0] -> Leste -> [5,0] | score=-30 tentativa=1
+  [5,0] -> Sul -> [5,1] | score=-30 tentativa=1
+  🟡 amarelo   -20 | Score: -50.0 | Amarelos pisados: 2
+  pen=-20 | score=-50
+  [5,1] -> Leste -> [6,1] | score=-50 tentativa=1
+  🟡 amarelo   -20 | Score: -70.0 | Amarelos pisados: 3
+  ↩  Volta para A | Score: -70.0 | Tentativa #1 | Tempo total: 16s
+  pen=-20 | score=-70
+  Voltou para A — tentativa 2
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=2
+  ✅ Estabilizado em A — tentativa 2 iniciando
+
+  [1,0] -> Sul -> [1,1] | score=0 tentativa=2
+  [1,1] -> Leste -> [2,1] | score=0 tentativa=2
+  [2,1] -> Sul -> [2,2] | score=0 tentativa=2
+  [2,2] -> Sul -> [2,3] | score=0 tentativa=2
+  [2,3] -> Sul -> [2,4] | score=0 tentativa=2
+  [2,4] -> Leste -> [3,4] | score=0 tentativa=2
+  🟢 verde     -10 | Score: -10.0 | Verdes pisados: 2
+  pen=-10 | score=-10
+  [3,4] -> Sul -> [3,5] | score=-10 tentativa=2
+  [3,5] -> Oeste -> [2,5] | score=-10 tentativa=2
+  🟡 amarelo   -20 | Score: -30.0 | Amarelos pisados: 4
+  pen=-20 | score=-30
+  [2,5] -> Sul -> [2,6] | score=-30 tentativa=2
+  [2,6] -> Sul -> [2,7] | score=-30 tentativa=2
+  [2,7] -> Sul -> [2,8] | score=-30 tentativa=2
+  🟢 verde     -10 | Score: -40.0 | Verdes pisados: 3
+  pen=-10 | score=-40
+  [2,8] -> Sul -> [2,9] | score=-40 tentativa=2
+  [2,9] -> Leste -> [3,9] | score=-40 tentativa=2
+  [3,9] -> Leste -> [4,9] | score=-40 tentativa=2
+  [4,9] -> Oeste -> [3,9] | score=-40 tentativa=2
+  [3,9] -> Leste -> [4,9] | score=-40 tentativa=2
+  [4,9] -> Leste -> [5,9] | score=-40 tentativa=2
+  [5,9] -> Leste -> [6,9] | score=-40 tentativa=2
+  [6,9] -> Leste -> [7,9] | score=-40 tentativa=2
+  [7,9] -> Leste -> [8,9] | score=-40 tentativa=2
+  [8,9] -> Leste -> [9,9] | score=-40 tentativa=2
+
+  🏁 Chegou em B! Ep 1 | Score: +60.0 | Tempo total: 72.6s | Tentativas: 1
+
+==================================================
+  RESULTADO DA AVALIACAO — MATA64 2026.2
+==================================================
+  Semente de randomizacao : 602615
+  Chegou ao ponto B       : SIM
+--------------------------------------------------
+  ITEM 1 — Chegada
+  Tentativas realizadas   : 1
+  Pontuacao final (ult.   
+  tentativa ao chegar B)  : +60.0 pts
+--------------------------------------------------
+  ITEM 2 — Eficiencia
+  Tempo total ate B       : 72.6 s  (01:12)
+  Num. reposicionamentos  : 1
+--------------------------------------------------
+  SINAIS PISADOS (todas as tentativas)
+  Verde    (-10 pts) :   3 =   30 pts de penalidade
+  Amarelo  (-20 pts) :   4 =   80 pts de penalidade
+  Vermelho (-50 pts) :   0 =    0 pts de penalidade
+  Total de sinais    :   7
+==================================================
+
+  Resultado salvo em: C:\Users\jhuze\Downloads\IA_20262\desafio-ia-mata64\controllers\grade_controller\resultado_avaliacao.txt
+INFO: 'grade_supervisor' controller exited successfully.
+
+=======================================================
+  CHEGOU EM B! Tentativa 2 | tempo 72.9 s | score 60
+=======================================================
+
+INFO: 'grade_controller' controller exited successfully.

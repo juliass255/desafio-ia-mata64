@@ -1,0 +1,373 @@
+INFO: grade_controller: Starting controller: python.exe -u grade_controller.py
+INFO: grade_supervisor: Starting controller: python.exe -u grade_supervisor.py
+=======================================================
+  Desafio IA - MATA64 | Q-learning + prior neural
+  modo=coleta | prior=não (otimista)
+=======================================================
+
+  Semente de randomizacao: 764417
+
+=======================================================
+  Grade Inteligente - Supervisor iniciado
+=======================================================
+  Sinais: 🟢16 🟡16 🔴18 (total 50) — bordas garantidas + restantes aleatorios
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=1
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 1
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=1
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=1
+  [2,1] -> Sul -> [2,2] | score=-20 tentativa=1
+  [2,2] -> Sul -> [2,3] | score=-20 tentativa=1
+  [2,3] -> Sul -> [2,4] | score=-20 tentativa=1
+  [2,4] -> Leste -> [3,4] | score=-20 tentativa=1
+  [3,4] -> Sul -> [3,5] | score=-20 tentativa=1
+  [3,5] -> Sul -> [3,6] | score=-20 tentativa=1
+  [3,6] -> Sul -> [3,7] | score=-20 tentativa=1
+  [3,7] -> Sul -> [3,8] | score=-20 tentativa=1
+  [3,8] -> Leste -> [4,8] | score=-20 tentativa=1
+  🟢 verde     -10 | Score: -30.0 | Verdes pisados: 1
+  pen=-10 | score=-30
+  [4,8] -> Leste -> [5,8] | score=-30 tentativa=1
+  [5,8] -> Oeste -> [4,8] | score=-30 tentativa=1
+  [4,8] -> Leste -> [5,8] | score=-30 tentativa=1
+  [5,8] -> Sul -> [5,9] | score=-30 tentativa=1
+  [5,9] -> Leste -> [6,9] | score=-30 tentativa=1
+  [6,9] -> Norte -> [6,8] | score=-30 tentativa=1
+  [6,8] -> Oeste -> [5,8] | score=-30 tentativa=1
+  🔴 vermelho  -50 | Score: -80.0 | Vermelhos pisados: 1
+  ↩  Volta para A | Score: -80.0 | Tentativa #1 | Tempo total: 50s
+  pen=-50 | score=-80
+  Voltou para A — tentativa 2
+
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=2
+  [0,1] -> Leste -> [1,1] | score=0 tentativa=2
+  ✅ Estabilizado em A — tentativa 2 iniciando
+
+  [1,1] -> Sul -> [1,2] | score=0 tentativa=2
+  🟢 verde     -10 | Score: -10.0 | Verdes pisados: 2
+  pen=-10 | score=-10
+  [1,2] -> Sul -> [1,3] | score=-10 tentativa=2
+  [1,3] -> Leste -> [2,3] | score=-10 tentativa=2
+  🔴 vermelho  -50 | Score: -60.0 | Vermelhos pisados: 2
+  pen=-50 | score=-60
+  Voltou para A — tentativa 3
+
+  ↩  Volta para A | Score: -60.0 | Tentativa #2 | Tempo total: 61s
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=3
+  [0,1] -> Sul -> [0,2] | score=0 tentativa=3
+  ✅ Estabilizado em A — tentativa 3 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 2
+  pen=-20 | score=-20
+  [0,2] -> Sul -> [0,3] | score=-20 tentativa=3
+  [0,3] -> Leste -> [1,3] | score=-20 tentativa=3
+  [1,3] -> Sul -> [1,4] | score=-20 tentativa=3
+  [1,4] -> Leste -> [2,4] | score=-20 tentativa=3
+  🟢 verde     -10 | Score: -30.0 | Verdes pisados: 3
+  pen=-10 | score=-30
+  [2,4] -> Sul -> [2,5] | score=-30 tentativa=3
+  [2,5] -> Sul -> [2,6] | score=-30 tentativa=3
+  🔴 vermelho  -50 | Score: -80.0 | Vermelhos pisados: 3
+  pen=-50 | score=-80
+  Voltou para A — tentativa 4
+
+  ↩  Volta para A | Score: -80.0 | Tentativa #3 | Tempo total: 80s
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=4
+  [0,1] -> Sul -> [0,2] | score=0 tentativa=4
+  ✅ Estabilizado em A — tentativa 4 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 3
+  pen=-20 | score=-20
+  [0,2] -> Leste -> [1,2] | score=-20 tentativa=4
+  [1,2] -> Leste -> [2,2] | score=-20 tentativa=4
+  🟢 verde     -10 | Score: -30.0 | Verdes pisados: 4
+  pen=-10 | score=-30
+  [2,2] -> Sul -> [2,3] | score=-30 tentativa=4
+  [2,3] -> Sul -> [2,4] | score=-30 tentativa=4
+  [2,4] -> Leste -> [3,4] | score=-30 tentativa=4
+  [3,4] -> Sul -> [3,5] | score=-30 tentativa=4
+  [3,5] -> Leste -> [4,5] | score=-30 tentativa=4
+  🟢 verde     -10 | Score: -40.0 | Verdes pisados: 5
+  pen=-10 | score=-40
+  [4,5] -> Leste -> [5,5] | score=-40 tentativa=4
+  🟡 amarelo   -20 | Score: -60.0 | Amarelos pisados: 4
+  pen=-20 | score=-60
+  ↩  Volta para A | Score: -60.0 | Tentativa #4 | Tempo total: 104s
+  Voltou para A — tentativa 5
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=5
+  ✅ Estabilizado em A — tentativa 5 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 5
+  pen=-20 | score=-20
+  [1,0] -> Sul -> [1,1] | score=-20 tentativa=5
+  🟡 amarelo   -20 | Score: -40.0 | Amarelos pisados: 6
+  pen=-20 | score=-40
+  [1,1] -> Leste -> [2,1] | score=-40 tentativa=5
+  [2,1] -> Sul -> [2,2] | score=-40 tentativa=5
+  [2,2] -> Leste -> [3,2] | score=-40 tentativa=5
+  [3,2] -> Norte -> [3,1] | score=-40 tentativa=5
+  [3,1] -> Leste -> [4,1] | score=-40 tentativa=5
+  [4,1] -> Leste -> [5,1] | score=-40 tentativa=5
+  [5,1] -> Sul -> [5,2] | score=-40 tentativa=5
+  [5,2] -> Oeste -> [4,2] | score=-40 tentativa=5
+  🔴 vermelho  -50 | Score: -90.0 | Vermelhos pisados: 4
+  pen=-50 | score=-90
+  Voltou para A — tentativa 6
+
+  ↩  Volta para A | Score: -90.0 | Tentativa #5 | Tempo total: 132s
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=6
+  [0,1] -> Leste -> [1,1] | score=0 tentativa=6
+  ✅ Estabilizado em A — tentativa 6 iniciando
+
+  [1,1] -> Leste -> [2,1] | score=0 tentativa=6
+  [2,1] -> Leste -> [3,1] | score=0 tentativa=6
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 7
+  pen=-20 | score=-20
+  [3,1] -> Leste -> [4,1] | score=-20 tentativa=6
+  [4,1] -> Leste -> [5,1] | score=-20 tentativa=6
+  [5,1] -> Leste -> [6,1] | score=-20 tentativa=6
+  [6,1] -> Leste -> [7,1] | score=-20 tentativa=6
+  [7,1] -> Leste -> [8,1] | score=-20 tentativa=6
+  [8,1] -> Sul -> [8,2] | score=-20 tentativa=6
+  [8,2] -> Leste -> [9,2] | score=-20 tentativa=6
+  [9,2] -> Sul -> [9,3] | score=-20 tentativa=6
+  [9,3] -> Sul -> [9,4] | score=-20 tentativa=6
+  🔴 vermelho  -50 | Score: -70.0 | Vermelhos pisados: 5
+  ↩  Volta para A | Score: -70.0 | Tentativa #6 | Tempo total: 161s
+  pen=-50 | score=-70
+  Voltou para A — tentativa 7
+
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=7
+  [0,1] -> Norte -> [0,0] | score=0 tentativa=7
+  ✅ Estabilizado em A — tentativa 7 iniciando
+
+  🔴 vermelho  -50 | Score: -50.0 | Vermelhos pisados: 6
+  pen=-50 | score=-50
+  [0,0] -> Leste -> [1,0] | score=-50 tentativa=7
+  🟡 amarelo   -20 | Score: -70.0 | Amarelos pisados: 8
+  ↩  Volta para A | Score: -70.0 | Tentativa #7 | Tempo total: 168s
+  pen=-20 | score=-70
+  Voltou para A — tentativa 8
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=8
+  ✅ Estabilizado em A — tentativa 8 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 9
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=8
+  [2,0] -> Leste -> [3,0] | score=-20 tentativa=8
+  🔴 vermelho  -50 | Score: -70.0 | Vermelhos pisados: 7
+  ↩  Volta para A | Score: -70.0 | Tentativa #8 | Tempo total: 174s
+  pen=-50 | score=-70
+  Voltou para A — tentativa 9
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=9
+  ✅ Estabilizado em A — tentativa 9 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 10
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=9
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=9
+  [2,1] -> Sul -> [2,2] | score=-20 tentativa=9
+  [2,2] -> Sul -> [2,3] | score=-20 tentativa=9
+  [2,3] -> Sul -> [2,4] | score=-20 tentativa=9
+  [2,4] -> Sul -> [2,5] | score=-20 tentativa=9
+  [2,5] -> Leste -> [3,5] | score=-20 tentativa=9
+  🔴 vermelho  -50 | Score: -70.0 | Vermelhos pisados: 8
+  ↩  Volta para A | Score: -70.0 | Tentativa #9 | Tempo total: 193s
+  pen=-50 | score=-70
+  Voltou para A — tentativa 10
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=10
+  ✅ Estabilizado em A — tentativa 10 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 11
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=10
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=10
+  [2,1] -> Leste -> [3,1] | score=-20 tentativa=10
+  🟡 amarelo   -20 | Score: -40.0 | Amarelos pisados: 12
+  pen=-20 | score=-40
+  [3,1] -> Sul -> [3,2] | score=-40 tentativa=10
+  [3,2] -> Leste -> [4,2] | score=-40 tentativa=10
+  [4,2] -> Sul -> [4,3] | score=-40 tentativa=10
+  [4,3] -> Leste -> [5,3] | score=-40 tentativa=10
+  [5,3] -> Sul -> [5,4] | score=-40 tentativa=10
+  [5,4] -> Leste -> [6,4] | score=-40 tentativa=10
+  [6,4] -> Leste -> [7,4] | score=-40 tentativa=10
+  🟢 verde     -10 | Score: -50.0 | Verdes pisados: 6
+  pen=-10 | score=-50
+  [7,4] -> Leste -> [8,4] | score=-50 tentativa=10
+  [8,4] -> Sul -> [8,5] | score=-50 tentativa=10
+  [8,5] -> Sul -> [8,6] | score=-50 tentativa=10
+  [8,6] -> Leste -> [9,6] | score=-50 tentativa=10
+  [9,6] -> Sul -> [9,7] | score=-50 tentativa=10
+  [9,7] -> Sul -> [9,8] | score=-50 tentativa=10
+  [9,8] -> Sul -> [9,9] | score=-50 tentativa=10
+  🔴 vermelho  -50 | Score: -100.0 | Vermelhos pisados: 9
+  pen=-50 | score=-100
+  Voltou para A — tentativa 11
+
+  ↩  Volta para A | Score: -100.0 | Tentativa #10 | Tempo total: 239s
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=11
+  ✅ Estabilizado em A — tentativa 11 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 13
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=11
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=11
+  [2,1] -> Sul -> [2,2] | score=-20 tentativa=11
+  [2,2] -> Leste -> [3,2] | score=-20 tentativa=11
+  [3,2] -> Sul -> [3,3] | score=-20 tentativa=11
+  [3,3] -> Sul -> [3,4] | score=-20 tentativa=11
+  🟢 verde     -10 | Score: -30.0 | Verdes pisados: 7
+  pen=-10 | score=-30
+  [3,4] -> Leste -> [4,4] | score=-30 tentativa=11
+  [4,4] -> Leste -> [5,4] | score=-30 tentativa=11
+  [5,4] -> Leste -> [6,4] | score=-30 tentativa=11
+  [6,4] -> Oeste -> [5,4] | score=-30 tentativa=11
+  [5,4] -> Sul -> [5,5] | score=-30 tentativa=11
+  🔴 vermelho  -50 | Score: -80.0 | Vermelhos pisados: 10
+  ↩  Volta para A | Score: -80.0 | Tentativa #11 | Tempo total: 270s
+  pen=-50 | score=-80
+  Voltou para A — tentativa 12
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=12
+  ✅ Estabilizado em A — tentativa 12 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 14
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=12
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=12
+  [2,1] -> Sul -> [2,2] | score=-20 tentativa=12
+  [2,2] -> Sul -> [2,3] | score=-20 tentativa=12
+  [2,3] -> Leste -> [3,3] | score=-20 tentativa=12
+  🟡 amarelo   -20 | Score: -40.0 | Amarelos pisados: 15
+  pen=-20 | score=-40
+  [3,3] -> Leste -> [4,3] | score=-40 tentativa=12
+  🟢 verde     -10 | Score: -50.0 | Verdes pisados: 8
+  pen=-10 | score=-50
+  [4,3] -> Sul -> [4,4] | score=-50 tentativa=12
+  🟡 amarelo   -20 | Score: -70.0 | Amarelos pisados: 16
+  ↩  Volta para A | Score: -70.0 | Tentativa #12 | Tempo total: 290s
+  pen=-20 | score=-70
+  Voltou para A — tentativa 13
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=13
+  ✅ Estabilizado em A — tentativa 13 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 17
+  pen=-20 | score=-20
+  [1,0] -> Oeste -> [0,0] | score=-20 tentativa=13
+  [0,0] -> Leste -> [1,0] | score=-20 tentativa=13
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=13
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=13
+  [2,1] -> Sul -> [2,2] | score=-20 tentativa=13
+  [2,2] -> Oeste -> [1,2] | score=-20 tentativa=13
+  🟢 verde     -10 | Score: -30.0 | Verdes pisados: 9
+  pen=-10 | score=-30
+  [1,2] -> Sul -> [1,3] | score=-30 tentativa=13
+  [1,3] -> Sul -> [1,4] | score=-30 tentativa=13
+  [1,4] -> Sul -> [1,5] | score=-30 tentativa=13
+  [1,5] -> Sul -> [1,6] | score=-30 tentativa=13
+  [1,6] -> Sul -> [1,7] | score=-30 tentativa=13
+  🟢 verde     -10 | Score: -40.0 | Verdes pisados: 10
+  pen=-10 | score=-40
+  [1,7] -> Sul -> [1,8] | score=-40 tentativa=13
+  [1,8] -> Sul -> [1,9] | score=-40 tentativa=13
+  [1,9] -> Leste -> [2,9] | score=-40 tentativa=13
+  🟡 amarelo   -20 | Score: -60.0 | Amarelos pisados: 18
+  ↩  Volta para A | Score: -60.0 | Tentativa #13 | Tempo total: 327s
+  pen=-20 | score=-60
+  Voltou para A — tentativa 14
+
+  [0,0] -> Leste -> [1,0] | score=0 tentativa=14
+  ✅ Estabilizado em A — tentativa 14 iniciando
+
+  🟡 amarelo   -20 | Score: -20.0 | Amarelos pisados: 19
+  pen=-20 | score=-20
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=14
+  [2,0] -> Oeste -> [1,0] | score=-20 tentativa=14
+  [1,0] -> Leste -> [2,0] | score=-20 tentativa=14
+  [2,0] -> Sul -> [2,1] | score=-20 tentativa=14
+  [2,1] -> Sul -> [2,2] | score=-20 tentativa=14
+  [2,2] -> Leste -> [3,2] | score=-20 tentativa=14
+  [3,2] -> Leste -> [4,2] | score=-20 tentativa=14
+  [4,2] -> Leste -> [5,2] | score=-20 tentativa=14
+  🔴 vermelho  -50 | Score: -70.0 | Vermelhos pisados: 11
+  ↩  Volta para A | Score: -70.0 | Tentativa #14 | Tempo total: 350s
+  pen=-50 | score=-70
+  Voltou para A — tentativa 15
+
+  [0,0] -> Sul -> [0,1] | score=0 tentativa=15
+  [0,1] -> Leste -> [1,1] | score=0 tentativa=15
+  ✅ Estabilizado em A — tentativa 15 iniciando
+
+  [1,1] -> Sul -> [1,2] | score=0 tentativa=15
+  🟢 verde     -10 | Score: -10.0 | Verdes pisados: 11
+  pen=-10 | score=-10
+  [1,2] -> Norte -> [1,1] | score=-10 tentativa=15
+  [1,1] -> Leste -> [2,1] | score=-10 tentativa=15
+  [2,1] -> Sul -> [2,2] | score=-10 tentativa=15
+  [2,2] -> Leste -> [3,2] | score=-10 tentativa=15
+  [3,2] -> Oeste -> [2,2] | score=-10 tentativa=15
+  [2,2] -> Leste -> [3,2] | score=-10 tentativa=15
+  [3,2] -> Sul -> [3,3] | score=-10 tentativa=15
+  [3,3] -> Norte -> [3,2] | score=-10 tentativa=15
+  [3,2] -> Leste -> [4,2] | score=-10 tentativa=15
+  [4,2] -> Sul -> [4,3] | score=-10 tentativa=15
+  [4,3] -> Leste -> [5,3] | score=-10 tentativa=15
+  [5,3] -> Sul -> [5,4] | score=-10 tentativa=15
+  [5,4] -> Leste -> [6,4] | score=-10 tentativa=15
+  [6,4] -> Sul -> [6,5] | score=-10 tentativa=15
+  [6,5] -> Leste -> [7,5] | score=-10 tentativa=15
+  [7,5] -> Sul -> [7,6] | score=-10 tentativa=15
+  [7,6] -> Oeste -> [6,6] | score=-10 tentativa=15
+  🟡 amarelo   -20 | Score: -30.0 | Amarelos pisados: 20
+  pen=-20 | score=-30
+  [6,6] -> Oeste -> [5,6] | score=-30 tentativa=15
+  [5,6] -> Sul -> [5,7] | score=-30 tentativa=15
+  [5,7] -> Oeste -> [4,7] | score=-30 tentativa=15
+  [4,7] -> Leste -> [5,7] | score=-30 tentativa=15
+  [5,7] -> Norte -> [5,6] | score=-30 tentativa=15
+  [5,6] -> Sul -> [5,7] | score=-30 tentativa=15
+  [5,7] -> Sul -> [5,8] | score=-30 tentativa=15
+  [5,8] -> Sul -> [5,9] | score=-30 tentativa=15
+  [5,9] -> Leste -> [6,9] | score=-30 tentativa=15
+  [6,9] -> Leste -> [7,9] | score=-30 tentativa=15
+  [7,9] -> Leste -> [8,9] | score=-30 tentativa=15
+  [8,9] -> Leste -> [9,9] | score=-30 tentativa=15
+
+  🏁 Chegou em B! Ep 1 | Score: +70.0 | Tempo total: 440.5s | Tentativas: 14
+
+==================================================
+  RESULTADO DA AVALIACAO — MATA64 2026.2
+==================================================
+  Semente de randomizacao : 764417
+  Chegou ao ponto B       : SIM
+--------------------------------------------------
+  ITEM 1 — Chegada
+  Tentativas realizadas   : 14
+  Pontuacao final (ult.   
+  tentativa ao chegar B)  : +70.0 pts
+--------------------------------------------------
+  ITEM 2 — Eficiencia
+  Tempo total ate B       : 440.5 s  (07:20)
+  Num. reposicionamentos  : 14
+--------------------------------------------------
+  SINAIS PISADOS (todas as tentativas)
+  Verde    (-10 pts) :  11 =  110 pts de penalidade
+  Amarelo  (-20 pts) :  20 =  400 pts de penalidade
+  Vermelho (-50 pts) :  11 =  550 pts de penalidade
+  Total de sinais    :  42
+==================================================
+
+  Resultado salvo em: C:\Users\jhuze\Downloads\IA_20262\desafio-ia-mata64\controllers\grade_controller\resultado_avaliacao.txt
+INFO: 'grade_supervisor' controller exited successfully.
+
+=======================================================
+  CHEGOU EM B! Tentativa 15 | tempo 440.8 s | score 70
+=======================================================
+
+INFO: 'grade_controller' controller exited successfully.
